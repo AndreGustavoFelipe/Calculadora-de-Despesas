@@ -3,11 +3,11 @@ Esta calculadora tem o intuito de receber valores do usuário, armazena-los e re
 
 Tecnologias utilizadas:
 	
--Html
+- HTML5
 
--Css
+- CSS3
 
--JavaScript
+- JavaScript
 
 Como rodar o projeto?
 
