@@ -14,36 +14,57 @@
         <h2>Calculadora de Despesas</h2>
     </nav>
 
-    <div class="body">
+    <div class="container">
         
         <div class="box-functions">
-            <label name = "inserir"><b>Nova Despesa:</b></label>
-            <input class = "input" type="text" id="novaDespesa">
-            <button class = "btn" onclick="adicionarDespesa()">INSERIR</button>
-            <button class="btn" id="btn-fechar" onclick="fecharDivFunctions()">Minimizar</button>
-            <br><br>
-            <label name = "total"><b>Para calcular o total, clique no botão:</b></label>
-            <button class = "btn"class = "btn" onclick="calcTot()">Calcular</button>
-            <p class="total"><b>Valor total de despesas:</b> Não calculado</p>
-            <br><br>
-            <label name = "media"><b>Para calcular a média, clique no botão:</b></label>
-            <button class = "btn"class = "btn" onclick="calcularMedia()">Calcular</button>
-            <p class="media"><b>Média das despesas:</b> Não calculado</p>
-            <br><br>
-            <label name = "maiorValor"><b>Para encontrar a maior despesa informada, clique no botão:</b></label>
-            <button class = "btn" onclick="valorMaior()">Calcular</button>
-            <p class="maiorValor"><b>Maior valor das despesas:</b> Ainda nenhum valor foi inserido</p>
-            <br><br>
-            <label name = "menorValor"><b>Para encontrar a menor despesa informada, clique no botão:</b></label>
-            <button class = "btn" onclick="valorMenor()">Calcular</button>
-            <p class="menorValor"><b>Menor valor das despesas:</b> Ainda nenhum valor foi inserido</p>
-            <br><br>
-            <label name = "valorRemover"><b>Informe o Nº da despesa que você deseja remover:</b></label>
-            <input class = "input" type="text" id="indiceRemover">
-            <button class = "btn" onclick="removerDespesa()">Remover</button>
-            <br><br>
-            <label name = "maiorValor"><b>Para remover todos os registros do array:</b></label>
-            <button class = "btn" id = "btn-apagar" onclick="removerTodasDespesas()">Clique</button>
+
+            <div class="functions2">
+                
+                <div>
+                    <label name = "inserir"><b>Nova Despesa:</b></label>
+                    <input class = "input" type="text" id="novaDespesa">
+                    <button class = "btn" onclick="adicionarDespesa()">INSERIR</button>
+                </div>
+
+                <div>
+                    <label name = "total"><b>Para calcular o total, clique no botão:</b></label>
+                    <button class = "btn"class = "btn" onclick="calcTot()">Calcular</button>
+                    <p class="total"><b>Valor total de despesas:</b> Não calculado</p>
+                </div>
+                
+                <div> 
+                    <label name = "valorRemover"><b>Informe o Nº da despesa que você deseja remover:</b></label>
+                    <input class = "input" type="text" id="indiceRemover">
+                    <button class = "btn" onclick="removerDespesa()">Remover</button>    
+                </div>
+
+                <div>
+                    <label name = "maiorValor"><b>Para remover todos os registros do array:</b></label>
+                    <button class = "btn" id = "btn-apagar" onclick="removerTodasDespesas()">Clique</button>
+                </div>
+            </div>
+            
+            <div class="functions2">     
+
+                <div>
+                    <label name = "media"><b>Para calcular a média, clique no botão:</b></label>
+                    <button class = "btn"class = "btn" onclick="calcularMedia()">Calcular</button>
+                    <p class="media"><b>Média das despesas:</b> Não calculado</p>
+                </div>
+
+                <div>
+                    <label name = "maiorValor"><b>Para encontrar a maior despesa informada, clique no botão:</b></label>
+                    <button class = "btn" onclick="valorMaior()">Calcular</button>
+                    <p class="maiorValor"><b>Maior valor das despesas:</b> Ainda nenhum valor foi inserido</p>
+                </div>
+
+                <div>
+                    <label name = "menorValor"><b>Para encontrar a menor despesa informada, clique no botão:</b></label>
+                    <button class = "btn" onclick="valorMenor()">Calcular</button>
+                    <p class="menorValor"><b>Menor valor das despesas:</b> Ainda nenhum valor foi inserido</p>
+                </div>
+
+            </div>
         </div>
         <div class="box-table">
         

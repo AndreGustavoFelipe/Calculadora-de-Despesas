@@ -1,14 +1,16 @@
-nav{
-    background-color: rgb(0, 0, 0); 
-    box-shadow: 1px 1px 7px rgb(0, 0, 0);
-    color: rgb(255, 255, 255); 
-    padding: 10px 0; 
-    text-align: center; 
+nav {
+    background-color: #1a1a2e;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: #fff;
+    text-align: center;
+    padding: 10px 20px;
 }
 
-.body{
+.container{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    margin-left: 0;
+    padding: 0;
 }
 
 .box-table{
@@ -22,18 +24,8 @@ nav{
     box-shadow: 1px 1px 7px gray;
 }
 
-.box-table-maior{
-    display: flex;
-    justify-content: center;
-    margin: auto;
-    margin-top: 30px;
-    border-radius: 30px;
-    width: 1280px;
-    box-shadow: 1px 1px 7px gray;
-}
-
 .table{
-    width: 900px;
+    width: 50vw;
 }
 
 .table-maior{
@@ -41,12 +33,29 @@ nav{
 }
 
 .box-functions{
-    height: 700px;
-    padding: 20px;
-    margin-left: 30px;
+    width: 95vw;
+    padding: 3%;
+    margin-left: 2vw;
     margin-top: 30px;
     border-radius: 30px;
     box-shadow: 1px 1px 7px gray;
+    display: flex;
+    flex-direction: row;
+}
+
+.functions1{
+
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.functions2{
+
+    display: flex;
+    flex-direction: column;
+
 }
 
 #title{
@@ -119,7 +128,6 @@ nav{
     height: 100px;
     width: 120px;
     margin: auto;
-    margin-left: 30px;
     position: relative;
     border-radius: 30px;
     box-shadow: 1px 1px 7px gray;
@@ -138,4 +146,24 @@ nav{
 .btn-abrir:hover{
     background-color: white;
     color: green;
+}
+
+/* RESPONSIVIDADE */
+
+@media (max-width: 450px){
+
+    
+
+}
+
+@media (min-width: 451px) and (max-width: 750px){
+
+    
+    
+}
+
+@media (min-width: 751px) and (max-width: 1250px){
+
+    
+    
 }
